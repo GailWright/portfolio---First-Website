@@ -1,0 +1,129 @@
+/*___Table of Contents
+1. Reset
+2. ...
+3. ...
+
+____*/
+
+/*This is the reset*/
+*{
+  margin:0;
+  padding:0;
+  box-sizing: border-box;
+}
+
+a{color:inherit;}
+
+/*---Universal Styles---*/
+body {
+  font-family: 'Lato', sans-serif;
+  color: #12eaf
+}
+
+h1,h2,h3,h4 {
+font-family: 'Raleway', sans-serif;
+}
+h1{
+  font-size: 4.5rem;
+}
+h2{
+  font-size: 2rem;
+  margin-bottom: 5vh;
+  color: blue;
+}
+h3{
+  font-size: 1rem;
+}
+h4{
+  font-size: 1rem;
+}
+
+section,footer{
+  padding: 10vh 9vw;
+}
+.no-padding {
+  padding:0;
+}
+.featured {
+  background-color: #0067B0;
+}
+
+.centered{
+  text-align: center;
+}
+.white-boxed {
+  background-color: white;
+  padding: 5%;
+  max-width: 80%;
+  margin: 0 auto;
+}
+
+
+/*---Header------------
+Powered by	Designhill
+#808080------------------*/
+header div.logo {
+  padding: 1rem;
+}
+header a{
+  color: white;
+  padding: 0 1rem;
+}
+header a:hover {
+color: blue;
+}
+.top-banner h2{
+  line-height: 1.5;
+  margin-top: 15vh;
+  font-size: 2.5rem;
+}
+.top-banner h3 {
+  margin: 0 auto 1rem auto;
+}
+/*Go to Giphy.com to get a picture*/
+.top-banner {background-size: cover;
+  min-height: 100vh;
+  background-image:url(../giphy.gif);
+  background-size: cover;
+  background-attachment: fixed;
+  color: #fff;
+}
+
+/*---About------------------------------*/
+
+
+/*---Skills------------------------------*/
+.skills div{
+  padding: 3%;
+}
+
+/* This is my comment to make target headings  within  specific headings the colour blue .I changed my mind and made all headings h2 blue. This was placed in the CSS Section.
+
+.skills h2, .experience h2 , .top-banner h2 {
+  color: blue;
+
+}*/
+
+.skills .box {
+  padding: 5px;
+}
+.skills .box .box-feature {
+  background-color: lightblue;
+}
+
+/*---Experience------------------------------*/
+.experience div{
+padding: 2.1%;
+}
+.experience h4 {
+  padding: 2% 0;
+}
+/*---Map------------------------------*/
+/*---Footer------------------------------*/
+footer{
+  color: #fff
+}
+.center-featured{
+text-align: center;
+color:white;
+}
