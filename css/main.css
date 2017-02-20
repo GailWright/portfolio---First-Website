@@ -97,6 +97,7 @@ color: blue;
   padding: 3%;
 }
 
+
 /* This is my comment to make target headings  within  specific headings the colour blue .I changed my mind and made all headings h2 blue. This was placed in the CSS Section.
 
 .skills h2, .experience h2 , .top-banner h2 {
@@ -110,6 +111,7 @@ color: blue;
 .skills .box .box-feature {
   background-color: lightblue;
 }
+
 
 /*---Experience------------------------------*/
 .experience div{
@@ -126,4 +128,16 @@ footer{
 .center-featured{
 text-align: center;
 color:white;
+}
+
+/*my media queries go here at the bottom of the page*/
+
+@media (max-width: 768px){
+  .skills .box .box-feature {
+    background-color: #eee;
+  }
+
+  .maps {
+    display:none;
+  }
 }
