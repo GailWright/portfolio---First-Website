@@ -58,6 +58,7 @@ section,footer{
   margin: 0 auto;
 }
 
+
 /*---Header------------
 Powered by	Designhill
 #808080------------------*/
@@ -115,7 +116,7 @@ color: blue;
 
 /*---Experience------------------------------*/
 .experience div{
-  padding: 2.1%;
+padding: 2.1%;
 }
 .experience h4 {
   padding: 2% 0;
@@ -126,8 +127,8 @@ footer{
   color: #fff
 }
 .center-featured{
-  text-align: center;
-  color:white;
+text-align: center;
+color:white;
 }
 
 /*my media queries go here at the bottom of the page*/
@@ -137,7 +138,7 @@ footer{
     background-color: #eee;
   }
 
-.maps {
+  .maps {
     display:none;
   }
 }
